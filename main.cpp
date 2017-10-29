@@ -9,7 +9,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <sstream>
 
 using namespace std;
 
@@ -22,6 +21,7 @@ class Worker {
 public:
 	Worker(string name, long id, double salary)
 	: _name(name), _id(id), _salary(salary){}
+	//TODO
 //	Worker(const Worker &other) {
 //		if (*this != other) {
 //			_name = other._name;
